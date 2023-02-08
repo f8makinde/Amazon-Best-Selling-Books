@@ -4,7 +4,7 @@ import img3 from './Images/am-3.jpg'
 import img4 from './Images/am-4.jpg'
 
 
-const data = [
+export const data = [
     {
      "img": img1,
      "title": "Tempt",
