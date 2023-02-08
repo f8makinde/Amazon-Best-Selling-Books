@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 1em 4em;
+}
+ 
+main{
+    display:flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align:center;
+}
+.grid{
+   padding: 2.5em 4em;
+   border-radius: 6px;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   transform: scale(1);
+    transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);
+}
+.grid:hover{
+  
+    transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);  
+    transform: scale(0.9);
+}
+h2, p, h4{
+    margin: 0;
+    padding: 0;
+}
+
+.set{
+    position: relative;
+}
+.list-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #D63333;
+    padding: 0 1.15em; 
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 10px;
+    color: white;
+}
