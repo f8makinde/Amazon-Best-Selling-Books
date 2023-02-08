@@ -34,7 +34,7 @@ const data = [
         "title": "Untying the Knot",
         "author": "Meghan Quinn",
         "edition": "Kindle Edition",
-        "price": ,
+        "price": 5,
         "id": 4
     }
 ]
